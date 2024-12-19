@@ -1,0 +1,19 @@
+package javaprograms;
+
+public class Staticvariable2 {
+	static int a=5,b=15;
+	static int Add=a+b;
+	static int div=a/b;
+	void display() {
+	}
+	
+
+public static void main (String args[]) {
+	
+	System.out.println(" Add two number is:"+Add);
+	System.out.println("Division of two number is:"+div);
+	
+}
+	
+
+}

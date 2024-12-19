@@ -1,0 +1,14 @@
+package javaprograms;
+
+public class Instancevariable {
+	int a=35,b=27;
+	 int sum=a+b;
+	 
+public static void main (String args[]) {
+	 Instancevariable2 obj=new  Instancevariable();
+	 System.out.println( "Addition of two number is:"+obj.sum );
+	 
+	}
+
+
+}

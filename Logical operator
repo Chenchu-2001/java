@@ -1,0 +1,20 @@
+ public class LogicalOperatorExample{
+
+public static void main(String args[]){
+
+            boolean a=true
+
+             boolean b=true
+
+            boolean c=false;
+
+           System.out.println(a&&b);//True as both are true
+
+           System.out.println(a&&c); //Fasle as c is false
+
+           System.out.println(a||c);//True as a is true
+
+           System.out.println(!c);//True as c is false
+
+       }
+}

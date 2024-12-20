@@ -1,0 +1,23 @@
+package operators;
+
+ import java.util.Scanner;
+ public class arithOperator {
+         public static void main(String[] args) {
+                int a, b, result;
+                Scanner scanner = new Scanner(System.in);
+                System.out.print("enter the value of a and b:");
+                //take two values  from user
+                a =scanner.nextint();
+                b =scanner.nextint();
+
+                result=a+b;
+                System.out.println("result after addition:"+result);
+                result=a-b;
+                System.out.println("result after subtraction:"+result);
+                result=a*b;
+                System.out.println("result after multipication:"+result);
+                result=a/b;
+                System.out.println("result after division:"+result);
+
+             }
+}

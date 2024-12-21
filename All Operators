@@ -1,0 +1,38 @@
+public class operators {
+
+	public static void main(String[] args) {
+		int i=10;
+		int j=5;
+		
+		System.out.println(i+j);
+		System.out.println(i-j);
+        System.out.println(i*j);       //Airthmetic  
+        System.out.println(i%j);
+        System.out.println(i/j);
+        
+        System.out.println(i++);
+        System.out.println(++i);       //Unary
+        System.out.println(j++);
+        System.out.println(++j);
+        
+        System.out.println(i==j);
+        System.out.println(i!=j);
+        System.out.println(i<j);     //Relational
+        System.out.println(i>j);
+        System.out.println(i<=j);
+        System.out.println(i>=j);
+        
+        System.out.println(i<j && i>j);
+        System.out.println(i<j || i>j);  //conditional
+        
+        
+        System.out.println(i=j);
+        System.out.println(i+=j);
+        System.out.println(i-=j);
+        System.out.println(i*=j);   // Assign
+        System.out.println(i%=j);
+     
+        
+	}
+
+}
